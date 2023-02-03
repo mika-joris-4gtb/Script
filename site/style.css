@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+#about{
+    display: flex;
+    padding: 4%;
+}
+.left{
+    flex: 3;
+}
+.right{
+    flex: 7;
+}
