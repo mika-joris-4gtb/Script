@@ -1,0 +1,28 @@
+body{
+
+    background-color: rgba(173, 135, 179, 0.575);
+    ;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+header nav li {
+    display: inline-block;
+    
+
+}
+
+
+header {
+    
+    background-color: rgba(0, 0, 0, 0.397);
+}
+header input{
+border-radius: 20px;
+padding: 5px;
+width: 150px;
+height: 30px;
+
+}
