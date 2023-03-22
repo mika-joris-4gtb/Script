@@ -1,32 +1,39 @@
-body{
-
-    background-color: rgba(173, 135, 179, 0.575);
-    ;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-.flex-container{
+body {
+    background-color: rgba(173, 135, 179, 0.575);
+}
+
+.flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
 header nav li {
     display: inline-block;
-    
+
 
 }
 
 
 header {
-    
+    padding: 2rem;
     background-color: rgba(189, 113, 113, 0.397);
 }
-header input{
-border-radius: 20px;
-padding: 5px;
-width: 150px;
-height: 25px;
+
+header input {
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 25px;
 
 }
 
-main video{
+main video {
     width: 100%;
 }
