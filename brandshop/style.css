@@ -23,6 +23,10 @@ header input{
 border-radius: 20px;
 padding: 5px;
 width: 150px;
-height: 30px;
+height: 25px;
 
+}
+
+main video{
+    width: 100%;
 }
