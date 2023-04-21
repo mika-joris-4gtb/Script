@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgba(173, 135, 179, 0.575);
+    background-color: rgba(44, 184, 118, 0.575);
 }
 
 .flex-container {
@@ -23,7 +23,7 @@ header nav li {
 
 header {
     padding: 2rem;
-    background-color: rgba(189, 113, 113, 0.397);
+    background-color: rgba(235, 2, 118, 0.397);
 }
 
 header input {
@@ -36,4 +36,9 @@ header input {
 
 main video {
     width: 100%;
+    overflow: hidden;
 }
+.flex-item {
+    flex: 1;
+}
+
