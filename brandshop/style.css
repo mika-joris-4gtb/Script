@@ -12,18 +12,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 header nav li {
     display: inline-block;
-
-
 }
-
 
 header {
     padding: 2rem;
     background-color: rgba(235, 2, 118, 0.397);
+}
+
+header img {
+    width: 6rem;
 }
 
 header input {
@@ -38,7 +40,11 @@ main video {
     width: 100%;
     overflow: hidden;
 }
+
 .flex-item {
     flex: 1;
 }
 
+img {
+    width: 100%;
+}
