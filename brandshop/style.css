@@ -48,3 +48,17 @@ main video {
 img {
     width: 100%;
 }
+
+#minishop img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
